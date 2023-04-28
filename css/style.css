@@ -75,10 +75,23 @@ section {
     flex-basis: calc((100% / 3) - 10px);
 }
 
+/* IMG HOVER */
+.b-img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 figure img {
     width: 100%;
 }
 
+figure:hover .b-img {
+    display: inline;
+}
+
+/* STICKER */
 .prezzo {
     color: var(--discount-color);
     font-weight: bold;
@@ -117,6 +130,10 @@ figure img {
     right: 0;
     height: 50px;
     width: 50px;
+}
+
+.wishlist:hover {
+    color: var(--discount-color);
 }
 
 /* FOOTER */
