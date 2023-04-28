@@ -29,9 +29,8 @@
     margin: 0 auto;
 }
 
-.middle {
+.al-center {
     align-items: center;
-    justify-content: center;
 }
 
 .d-flex {
@@ -58,9 +57,45 @@ body {
 /* HEADER */
 header {
     background-color: var(--main-color);
+    height: 80px;
+    color: white;
+}
+
+.head-box {
+    padding: 15px 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    font-weight: 600;
+}
+
+ul li {
+    text-align: left;
+    padding-right:10px;
+    list-style-type: none;
+    display: inline;
+}
+
+.logo {
     height: 50px;
 }
 
+.logo-box {
+    text-align: center;
+}
+
+div.login a {
+    padding: 0px 3px;
+}
+
+.login {
+    text-align: right;
+}
 /* SECTION */
 section {
     padding: 50px 0px;
@@ -130,6 +165,7 @@ figure:hover .b-img {
     right: 0;
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 
 .wishlist:hover {
@@ -138,6 +174,26 @@ figure:hover .b-img {
 
 /* FOOTER */
 footer {
+    color: #fff;
     background-color: var(--dark-grey);
-    height: 80px;
+    height: 100px;
+}
+
+.foot-box {
+    height: 100%;
+}
+
+.info {
+    width: 100%;
+}
+
+div.info h4 {
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.social {
+    text-align: right;
+    width: 100%;
+    font-size: 20px;
 }

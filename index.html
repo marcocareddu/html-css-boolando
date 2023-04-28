@@ -13,11 +13,25 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header class="border">
-        <div class="container d-flex middle">
-            <nav class="border f-basis-sm">link</nav>
-            <div class="border f-basis-lg">logo</div>
-            <div class="border f-basis-sm">login</div>
+    <header class="">
+        <div class="head-box container d-flex al-center">
+            <nav class="f-basis-sm">
+                <ul>
+                    <li><a href="#">Donna</a></li>
+                    <li><a href="#">Uomo</a></li>
+                    <li><a href="#">Bambini</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo-box f-basis-lg">
+                <a href="#"><img class="logo" src="./img/boolean-logo.png" alt="Logo di Boolean"></a>
+            </div>
+
+            <div class="login f-basis-sm">
+                <a href="#"><i class="far fa-user"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-bag-shopping"></i></a>
+            </div>
         </div>
     </header>
 
@@ -25,7 +39,9 @@
     <main>
 
         <section class="container d-flex">
-            <div class="card border">
+
+            <!-- CARDS -->
+            <div class="card">
                 <figure>
                     <img src="./img/1.webp" alt="">
                     <img src="./img/1b.webp" class="b-img" alt="">
@@ -40,7 +56,7 @@
                 <div class="wishlist"><i class="fas fa-heart"></i></div>
             </div>
 
-            <div class="card border">
+            <div class="card">
                 <figure>
                     <img src="./img/2.webp" alt="">
                     <img src="./img/2b.webp" class="b-img" alt="">
@@ -50,9 +66,11 @@
                         <p class="prezzo">20,99 €</p><span> 29,99 €</span>
                     </figcaption>
                 </figure>
+                <div class="sticker discount">-30%</div>
+                <div class="wishlist"><i class="fas fa-heart"></i></div>
             </div>
 
-            <div class="card border">
+            <div class="card">
                 <figure>
                     <img src="./img/3.webp" alt="">
                     <img src="./img/3b.webp" class="b-img" alt="">
@@ -62,48 +80,83 @@
                         <p class="prezzo">129,99 €</p><span> 184,99 €</span>
                     </figcaption>
                 </figure>
+                <div class="sticker discount">-30%</div>
+                <div class="wishlist"><i class="fas fa-heart"></i></div>
             </div>
 
-            <div class="card border">
+            <div class="card">
                 <figure>
                     <img src="./img/4.webp" alt="">
+                    <img src="./img/4b.webp" class="b-img" alt="">
                     <figcaption>
                         <p>Levi's</p>
                         <h4>TEE UNISEX</h4>
                         <p class="prezzo">14,99 €</p><span> 29,99 €</span>
                     </figcaption>
                 </figure>
+                <div class="sticker discount">-50%</div>
+                <div class="sticker sustainability">Sostenibilità</div>
+                <div class="wishlist"><i class="fas fa-heart"></i></div>
             </div>
 
-            <div class="card border">
+            <div class="card">
                 <figure>
                     <img src="./img/5.webp" alt="">
+                    <img src="./img/5b.webp" class="b-img" alt="">
                     <figcaption>
                         <p>Maya Deluxe</p>
                         <h4>STRIPE BODICE</h4>
                         <p class="prezzo">99,99 €</p>
                     </figcaption>
                 </figure>
+                <div class="wishlist"><i class="fas fa-heart"></i></div>
             </div>
 
-            <div class="card border">
+            <div class="card">
                 <figure>
                     <img src="./img/6.webp" alt="">
+                    <img src="./img/6b.webp" class="b-img" alt="">
                     <figcaption>
                         <p>Esprit</p>
                         <h4>MAGLIONE - BLACK</h4>
                         <p class="prezzo">29,99 €</p>
                     </figcaption>
                 </figure>
+                <div class="sticker sustainability">Sostenibilità</div>
+                <div class="wishlist"><i class="fas fa-heart"></i></div>
             </div>
 
         </section>
     </main>
 
-    <footer class="border">
-        <div class="container d-flex">
-            <div class="border info f-basis-md">information</div>
-            <div class="border social f-basis-md">social link</div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="foot-box container d-flex al-center">
+
+            <!-- INFO -->
+            <div class="f-basis-md">
+                <div class="info">
+                    <h4>Boolando s.r.l</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Informazioni legali</a></li>
+                            <li><a href="#">Informativa sulla privacy</a></li>
+                            <li><a href="#">Diritto di recesso</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="f-basis-md social">
+                <h5>Trovaci anche su</h5>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+            </div>
+
         </div>
     </footer>
 
