@@ -9,6 +9,8 @@
 :root {
     --main-color: #ff6900;
     --dark-grey: #1a1a1a;
+    --sustainability-color: #008000;
+    --discount-color: #ff0000;
     --flex-basis-xs: 20%;
     --flex-basis-sm: 40%;
     --flex-basis-md: 50%;
@@ -47,6 +49,12 @@
 .f-basis-md {
     flex-basis: var(--flex-basis-md);
 }
+
+/* BODY */
+body {
+    font-family: sans-serif;
+}
+
 /* HEADER */
 header {
     background-color: var(--main-color);
@@ -58,17 +66,57 @@ section {
     padding: 50px 0px;
     gap: 50px 10px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 /* CARD */
 .card {
-    background-color: grey;
-    flex-basis: calc((100% / 3) - 20px);
+    position: relative;
+    flex-basis: calc((100% / 3) - 10px);
 }
 
 figure img {
     width: 100%;
+}
+
+.prezzo {
+    color: var(--discount-color);
+    font-weight: bold;
+    display: inline;
+}
+
+.prezzo+span {
+    text-decoration: line-through;
+}
+
+.sticker {
+    display: inline;
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px;
+    bottom: 130px;
+    left: 0px;
+}
+
+.discount {
+    background-color: var(--discount-color);
+}
+
+.sustainability {
+    background-color: var(--sustainability-color);
+}
+
+.wishlist {
+    text-align: center;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 50px;
+    width: 50px;
 }
 
 /* FOOTER */
